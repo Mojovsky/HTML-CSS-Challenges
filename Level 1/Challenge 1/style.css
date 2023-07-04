@@ -79,3 +79,13 @@ p {
   position: relative;
   top: 55px;
 }
+
+.circle {
+  background-color: #252f89;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: relative;
+  left: 1000px;
+  bottom: 145px;
+}
