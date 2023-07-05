@@ -1,0 +1,93 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.header {
+  height: 94px;
+  background-color: #3a72b5;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+}
+
+.header p {
+}
+
+.main-body {
+  border-radius: 8px;
+  background-color: #dbdbdb;
+  margin: 102px 275px 0px;
+  padding: 45px 55px 30px;
+  height: 575px;
+}
+
+.text-box-top {
+}
+
+.text-box-left {
+  width: 608px;
+  height: 275px;
+  border-radius: 8px;
+  background-color: white;
+  position: absolute;
+}
+
+.text-box-right {
+  width: 608px;
+  height: 275px;
+  border-radius: 8px;
+  background-color: white;
+  position: absolute;
+  margin-left: 653px;
+}
+
+.text-box-bottom {
+  width: 1260px;
+  height: 275px;
+  border-radius: 8px;
+  background-color: white;
+  position: absolute;
+  margin-top: 295px;
+}
+
+p {
+  font-family: "Roboto", sens-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 20px;
+}
+
+.header p {
+  font-size: 28px;
+  font-weight: 400;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.circle {
+  background-color: #252f89;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 60px 60px;
+  position: absolute;
+  bottom: 0px;
+  left: 975px;
+}
+
+.text-box-left p {
+  position: absolute;
+  top: 90px;
+}
+
+.text-box-right p {
+  position: absolute;
+  top: 180px;
+  left: 220px;
+}
+
+.para2 {
+  position: absolute;
+  top: 190px;
+}
