@@ -23,11 +23,13 @@
   padding: 45px 55px 30px;
   display: flex;
   flex-direction: column;
+  gap: 30px;
 }
 
 .text-box-top {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 
 .text-box-left {
@@ -43,6 +45,8 @@
   border-radius: 8px;
   background-color: white;
   display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .text-box-bottom {
@@ -51,29 +55,27 @@
   border-radius: 8px;
   background-color: white;
   display: flex;
+  justify-content: space-between;
 }
 
 p {
   font-family: "Roboto", sens-serif;
   font-size: 36px;
   font-weight: 700;
+  margin: 20px;
 }
 
 .header p {
   font-size: 28px;
   font-weight: 400;
+  margin: auto;
+  padding-top: 20px;
 }
 
-.text-box-left p {
-}
-
-.text-box-right p {
-}
-
-.text-box-bottom p {
-}
-
-.para2 {
+.paragraph-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .circle {
@@ -81,4 +83,5 @@ p {
   height: 150px;
   width: 150px;
   border-radius: 50%;
+  margin: 60px 60px;
 }
