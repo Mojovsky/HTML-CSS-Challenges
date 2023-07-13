@@ -32,3 +32,34 @@ body {
   border-style: hidden;
   padding: 0.5rem 1.25rem;
 }
+
+.main {
+  background-color: #dbdbdb;
+  margin: 6rem auto;
+  width: 74%;
+  height: 65vh;
+  border-radius: 6px;
+}
+
+.icon-red {
+  background: #ae2727;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50px;
+  position: relative;
+  left: 49.75%;
+  bottom: 5%;
+}
+
+.card-container {
+  border: solid white 2px;
+  display: flex;
+}
+
+.card {
+  border: solid black 2px;
+  border-radius: 6px;
+  background-color: #fff;
+  height: 18rem;
+  width: 18rem;
+}
