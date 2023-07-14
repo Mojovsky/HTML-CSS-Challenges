@@ -1,0 +1,44 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+header {
+  background-color: #3a72b5;
+  min-height: 6rem;
+}
+
+.main {
+  background-color: #dbdbdb;
+  margin: 6rem auto;
+  max-width: 74%;
+  height: 65vh;
+  border-radius: 6px;
+}
+
+.container-details {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  padding: 3rem 4rem;
+  gap: 2.5rem;
+}
+
+.box-detail {
+  background-color: #fff;
+  border-radius: 6px;
+  width: 50%;
+  padding: 2rem;
+}
+
+#container-address span {
+  margin-left: 2rem;
+}
+
+#container-users {
+}
