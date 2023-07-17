@@ -16,7 +16,7 @@ header {
 .main {
   background-color: #dbdbdb;
   margin: 6rem auto;
-  max-width: 74%;
+  max-width: 64%;
   height: 65vh;
   border-radius: 8px;
 }
@@ -41,6 +41,18 @@ header {
   margin-left: 2rem;
 }
 
+#container-users {
+  text-align: right;
+}
+
+#container-users span {
+  font-style: italic;
+}
+
+span[origin$="pl"] {
+  text-decoration: underline;
+}
+
 .container-photos {
   height: 40%;
   display: flex;
@@ -54,6 +66,29 @@ header {
   width: 33.3%;
   background-color: #fff;
   border-radius: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.container-photo-circle {
+  display: flex;
+  margin: 0 1rem;
+}
+
+.photo-square {
+  height: 6rem;
+  width: 6rem;
+  background-color: #dbdbdb;
+  border-radius: 4px;
+  border: solid #aaa8a8 3px;
+}
+
+.photo-circle {
+  height: 6rem;
+  width: 6rem;
+  background-color: #dbdbdb;
+  border-radius: 100%;
+  border: solid #aaa8a8 3px;
 }
 
 #option1,
@@ -62,5 +97,28 @@ header {
 }
 
 #option2 {
-  width: 19%;
+  width: 25%;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#option2 span {
+  margin-top: 2rem;
+}
+
+#circle1 {
+  z-index: 1;
+  position: relative;
+  left: 2rem;
+}
+
+#circle2 {
+  z-index: 2;
+  position: relative;
+}
+
+#circle3 {
+  z-index: 3;
+  position: relative;
+  right: 2rem;
 }
