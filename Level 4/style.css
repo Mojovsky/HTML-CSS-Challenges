@@ -21,21 +21,37 @@ header {
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  padding: 2rem 3rem;
 }
 
 .container {
   background-color: #fff;
   border: #3a72b5 solid 2px;
   max-height: 80%;
-  width: 26rem;
   padding: 2rem;
   border-radius: 8px;
-  margin: 2rem 3rem;
 }
 
 .top-section {
   border: #3a72b5 solid 2px;
   display: flex;
+  width: 100%;
+  max-height: 50%;
   gap: 2rem;
+}
+
+.top-section .container {
+  width: 60%;
+}
+
+.bottom-section {
+  border: #3a72b5 solid 2px;
+  box-sizing: content-box;
+  overflow: hidden;
+}
+
+#loremipsum {
+  margin-top: 2rem;
+  height: 66%;
+  overflow-y: scroll;
 }
