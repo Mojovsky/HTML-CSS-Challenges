@@ -1,6 +1,7 @@
 * {
   margin: 0 auto;
   box-sizing: content-box;
+  overflow: hidden;
 }
 
 body {
@@ -69,15 +70,29 @@ header {
 }
 
 .container-profile {
-  border: #3a72b5 solid 3px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 2rem;
+  column-gap: 16rem;
+}
+
+.information {
+  width: 8rem;
+}
+
+#answer {
+  font-weight: bold;
+}
+
+#profile-title,
+#age,
+#country,
+#city {
+  text-align: end;
 }
 
 .bottom-section {
   box-sizing: content-box;
-  overflow: hidden;
 }
 
 #loremipsum {
