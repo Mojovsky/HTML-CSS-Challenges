@@ -75,9 +75,6 @@ header {
   row-gap: 2rem;
 }
 
-.first-name .last-name .gender {
-}
-
 .bottom-section {
   box-sizing: content-box;
   overflow: hidden;
